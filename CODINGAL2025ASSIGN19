@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>asssignment</title>
+
+
+        <style>
+            .col {
+                text-align: center;
+                border: 3px solid red;
+            }
+            .container {
+                container-type:"inherit";
+                border: 3px dashed black;
+            }
+            .row2 {
+                border: 2px dotted yellow;
+                text-align: center;
+            }
+            </style>
+        <h1>--------</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col">col</div>
+                <div class="col">col</div>
+                <div class="col">col</div>
+            </div>
+            <div class="row2">rows
+                 <div class="col-sm-4" style="background-color: yellowgreen;"> column small</div>
+            <div class="col-md-3" style="background-color: rgb(50, 148, 205);"> column medium</div>
+            <div class="col-lg-4" style="background-color: rgb(205, 146, 50);"> column large</div>
+            <div class="col-xl-4" style="background-color: rgb(205, 50, 176);"> column large</div
+            </div>
